@@ -1,0 +1,133 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day",
+        "How are you?"
+      ],
+      "responses": [
+        "Hello! Welcome to our clothing store.",
+        "Hi there, how can I assist you today?",
+        "Hey! What can I help you with?",
+        "Hello, how can I make your shopping experience better?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you soon"
+      ],
+      "responses": [
+        "Thanks for visiting! See you soon.",
+        "Goodbye! Come back anytime.",
+        "Take care, and have a great day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "I appreciate it",
+        "That's helpful"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Glad I could assist you."
+      ]
+    },
+    {
+      "tag": "product_inquiry",
+      "patterns": [
+        "What clothing items do you have?",
+        "Do you sell men's clothes?",
+        "Do you have women's dresses?",
+        "What kind of clothes do you sell?"
+      ],
+      "responses": [
+        "We offer a wide range of men's, women's, and kids' clothing including shirts, dresses, jeans, and accessories.",
+        "We have clothing for men, women, and kids, including shirts, trousers, dresses, and more."
+      ]
+    },
+    {
+      "tag": "size_inquiry",
+      "patterns": [
+        "What sizes do you offer?",
+        "Do you have plus-size clothing?",
+        "Can I get this in small or large?"
+      ],
+      "responses": [
+        "We offer sizes from XS to XXL and plus sizes in selected items.",
+        "Our clothing comes in various sizes, including XS, S, M, L, XL, and plus sizes."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Can I pay with a credit card?",
+        "Do you accept PayPal?"
+      ],
+      "responses": [
+        "We accept all major credit cards, PayPal, and Apple Pay.",
+        "You can pay using VISA, Mastercard, PayPal, and more."
+      ]
+    },
+    {
+      "tag": "shipping",
+      "patterns": [
+        "How long does shipping take?",
+        "When will my order arrive?",
+        "Do you offer free shipping?"
+      ],
+      "responses": [
+        "Standard shipping takes 3-5 business days. We also offer express shipping options.",
+        "Your order should arrive within 3-5 days. Free shipping is available for orders over $50."
+      ]
+    },
+    {
+      "tag": "returns",
+      "patterns": [
+        "Can I return an item?",
+        "What is your return policy?",
+        "How do I return something?"
+      ],
+      "responses": [
+        "You can return any item within 30 days of purchase for a full refund.",
+        "We offer hassle-free returns within 30 days. Just follow the instructions on our website."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": [
+        "Do you have any discounts?",
+        "Are there any sales going on?",
+        "Can I get a promo code?"
+      ],
+      "responses": [
+        "We have seasonal sales and promotions. Check our website for the latest discounts.",
+        "You can sign up for our newsletter to receive exclusive discount codes and offers."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke",
+        "Say something funny",
+        "Can you make me laugh?"
+      ],
+      "responses": [
+        "Why did the scarecrow become a successful fashion designer? Because he was outstanding in his field!",
+        "I told my clothes a joke, but it got ripped apart!"
+      ]
+    }
+  ]
+}
